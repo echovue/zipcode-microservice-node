@@ -1,0 +1,19 @@
+{
+  "name": "zipcode-microservice-node",
+  "version": "1.0.0",
+  "description": "Microservice to calculate distances between zip codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echovue/zipcode-microservice-node.git"
+  },
+  "author": "Mike Mackrory",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/echovue/zipcode-microservice-node/issues"
+  },
+  "homepage": "https://github.com/echovue/zipcode-microservice-node#readme"
+}
