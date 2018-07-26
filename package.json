@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/echovue/zipcode-microservice-node/issues"
   },
-  "homepage": "https://github.com/echovue/zipcode-microservice-node#readme"
+  "homepage": "https://github.com/echovue/zipcode-microservice-node#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
