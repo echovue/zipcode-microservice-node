@@ -25,5 +25,3 @@ And the response should be:
 An incorrect request, such as one which includes an invalid zip code should result in:
 
 `{"distance":-1}`
-
-https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
