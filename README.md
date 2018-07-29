@@ -3,8 +3,10 @@ A Node.js microservice which determines the distance for a specific zip code.
 
 To build the project, download it into a local directory.
  
-You will need to update the apiKey property in ***Update*** with your own from
+You will need to update the apiKey property in service/distance.js with your own from
 https://www.zipcodeapi.com/API
+
+You can also set environment variables for PORT and ZIPCODE_API_KEY which be read into the program at run-time
 
 To run the program, execute the following from the commandline:
 
@@ -18,10 +20,10 @@ An example request which you can submit is:
 
 And the response should be:
 
-`107 miles`
+`{"distance":107.319}`
 
 An incorrect request, such as one which includes an invalid zip code should result in:
 
-`Unable to calculate distance`
+`{"distance":-1}`
 
 https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
